@@ -98,6 +98,7 @@ export default {
             if(this.entry.id){
                 await this.updateEntry(this.entry)
             }else{
+                /////
                 //crear nueva entrada
                 console.log("POST NUEVA ENTRADA");
                 //await action
